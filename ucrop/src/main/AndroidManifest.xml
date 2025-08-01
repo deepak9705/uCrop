@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.yalantis.ucrop"/>
+<manifest package="com.yalantis.ucrop"
+  <style name="Theme.App.UCrop" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+  />
